@@ -1,0 +1,45 @@
+:root {
+    --blue: #0011ff;
+}
+
+body {
+    margin:0;
+    padding:0;
+    color: var(--blue);
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 90px;
+    color: rgb(0, 0, 0);
+}
+ 
+#gameboard {
+    width: 600px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+}
+
+
+.container {
+    padding: 40px;
+    height: 100vh;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-image: url(https://th.bing.com/th/id/OIP.h8zbP-4QxhrKHkXHNRAiuwHaFj?pid=ImgDet&rs=1);
+    align-items: center;
+    color: white;
+}
+
+
+* {
+    box-sizing: border-box;
+}
